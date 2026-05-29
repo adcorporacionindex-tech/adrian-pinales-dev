@@ -41,5 +41,28 @@ body{
     border-radius: 50%;
     width: 150px;
 }
+    @media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  .btn {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
 
 }
